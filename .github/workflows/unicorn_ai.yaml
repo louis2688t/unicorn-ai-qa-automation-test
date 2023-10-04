@@ -27,7 +27,7 @@ jobs:
 
       - name: Create Status Check based on Postman Results
         id: process-postman
-        uses: lendly-telus-com/pm-result@master
+        uses: jeffmichaelgomez/push-comment@main
         with:
           github-token: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
           results-file: result.json
